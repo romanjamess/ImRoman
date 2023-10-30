@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/Thingamabobs.png";
+import projImg1 from "../assets/img/movie.png";
 import projImg2 from "../assets/img/image.png";
 import projImg3 from "../assets/img/MoMart.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -11,8 +11,8 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "ThingamaBobs",
-      description: "Ecommerence website",
+      title: "Mr.Movie",
+      description: "Movie searching website",
       imgUrl: projImg1,
     },
     {
@@ -22,7 +22,7 @@ export const Projects = () => {
     },
     {
       title: "Mo Mart",
-      description: "Enhanced version of Thingamabobs",
+      description: "Ecommerce website",
       imgUrl: projImg3,
     },
 
